@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Kristen ITC', sans-serif;
+    background: #e2e8f0;
+    color: #333;
+}
+.profile-card{
+    width: min(450px, 90vh);
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgb(125 20 179 / 0.3);
+}
+.tag{
+    color: #a100ff;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin: 12px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+input, select{
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    padding: 8px 12px;
+    border-radius: 6px;
+    outline: none;
+}
+button{
+    margin: 15px 0 5px;
+    width: 100%;
+    border: none;
+    background: rgb(161 0 255);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    opacity: 0.9;
+}
+.secondary{
+    background: #f1f5f9;
+    color: #1e293b;
+}
+.hidden{
+    display: none;
+}
+.success{
+    color: #16a34a;
+    font-weight: bold;
+}
+.dark{
+    background: #1e293b;
+    color: #f8fafc;
+}
+.dark input, .dark select{
+    background: #334155;
+    color: #fff;
+    border-color: #475569;
+}
+.dark .secondary{
+    background: #334155;
+    color: #fff;
+}

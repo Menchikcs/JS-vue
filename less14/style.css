@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Kristen ITC', serif;
+    background: #8a8989;
+    color: #707070;
+}
+.course-card{
+    width: min(450px, 90vh);
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(125 20 179 / 0.3);
+}
+.tag{
+    color: #c127e4;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin: 15px 0;
+}
+input, select{
+    border: 1px solid #888787;
+    padding: 5px 10px;
+}
+button{
+    margin: 15px 0;
+    border: none;
+    background: #a100ff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.secondary{
+    background: #e2e8f0;
+    color: #243041;
+}
+.hidden{
+    display: none;
+}
+.success{
+    color: #147d43;
+    font-weight: bold;
+}
+.dark{
+    background: #243041;
+    color: #fdfdfd;
+}
+.dark .secondary{
+    background: #475569;
+    color: #fff;
+}
